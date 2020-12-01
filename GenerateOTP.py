@@ -14,6 +14,9 @@ from datetime import datetime
 
 #random.seed(datetime.now())
 
+st.title("Streamlit OTP generation APP - by Anirban Banerjee")
+st.write("My first attempt to publish my APP on https://share.streamlit.io/")
+
 #UserID = str(randint(500,999))
 UserName = st.empty()
 UserNameInput = st.text_input("Please Enter the Username")
